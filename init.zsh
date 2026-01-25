@@ -22,7 +22,7 @@ p6df::modules::alfred::deps() {
 ######################################################################
 p6df::modules::alfred::external::brew() {
 
-  p6df::modules::homebrew::cli::brew::install --cask alfred
+  p6df::core::homebrew::cli::brew::install --cask alfred
 
   p6_return_void
 }
