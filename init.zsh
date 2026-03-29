@@ -16,11 +16,11 @@ p6df::modules::alfred::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::alfred::external::brew()
+# Function: p6df::modules::alfred::external::brews()
 #
 #>
 ######################################################################
-p6df::modules::alfred::external::brew() {
+p6df::modules::alfred::external::brews() {
 
   p6df::core::homebrew::cli::brew::install --cask alfred
 
