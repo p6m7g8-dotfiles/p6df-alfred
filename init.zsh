@@ -40,5 +40,6 @@ p6df::modules::alfred::external::brews() {
 ######################################################################
 p6df::modules::alfred::profile::mod() {
 
+  # shellcheck disable=SC2016
   p6_return_words 'alfred' '$ALFRED_INSTALLED'
 }
