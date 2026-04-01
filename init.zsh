@@ -26,3 +26,20 @@ p6df::modules::alfred::external::brews() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words alfred = p6df::modules::alfred::profile::mod()
+#
+#  Returns:
+#	words - alfred
+#
+#  Environment:	 ALFRED_INSTALLED
+#>
+######################################################################
+p6df::modules::alfred::profile::mod() {
+
+  # shellcheck disable=SC2016
+  p6_return_words 'alfred' "$ALFRED_INSTALLED"
+}
