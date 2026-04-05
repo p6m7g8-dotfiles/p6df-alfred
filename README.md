@@ -36,7 +36,8 @@ TODO: Add a short summary of this module.
 ##### p6df-alfred/init.zsh
 
 - `p6df::modules::alfred::deps()`
-- `p6df::modules::alfred::external::brew()`
+- `p6df::modules::alfred::external::brews()`
+- `words alfred = p6df::modules::alfred::profile::mod()`
 
 ## Hierarchy
 
